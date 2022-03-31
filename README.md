@@ -5,6 +5,6 @@ In this version each module has been separated into its own file and a package h
 
 [Schematic](https://github.com/jnestor/mips_L_multi/blob/main/doc/mips_multicycle_2022.pdf)
 
-[State Diagram](https://github.com/jnestor/mips_L_multi/blob/main/doc/mjulticycle-fsm-2019.pdf)
+[State Diagram](https://github.com/jnestor/mips_L_multi/blob/main/doc/multicycle-fsm-2019.pdf)
 
 
