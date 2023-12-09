@@ -32,11 +32,11 @@ module mips_multi(
                    .alusrca, .iord, .memtoreg, .regdst,
                    .alusrcb, .pcsrc, .alucontrol);
 
-   datapath U_DP(clk, reset,
-                 pcen, irwrite, regwrite,
-                 alusrca, iord, memtoreg, regdst,
-                 alusrcb, pcsrc, alucontrol,
-                 opcode, funct, zero,
-                 adr, writedata, readdata);
+   datapath U_DP(.clk, .reset,
+                 .pcen, .irwrite, .regwrite,
+                 .alusrca, .iord, .memtoreg, .regdst,
+                 .alusrcb, .pcsrc, .alucontrol,
+                 .opcode, .funct, .zero,
+                 .adr, .writedata, .readdata);
 
 endmodule // mips_multi
